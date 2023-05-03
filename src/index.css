@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+body {
+  background-color: #c99789;
+}
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fce9db;
+  padding: 20px 50px;
+  border-radius: 20px;
+  width: 60%;
+}
+.title {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.557);
+  font-weight: bolder;
+}
+.new-task {
+  margin-block: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-field {
+  padding: 0px 7px;
+  border-style: none;
+  border-radius: 20px;
+  font-size: 15px;
+  width: 200px;
+}
+.save-button {
+  padding: 9px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgba(132, 247, 255, 0.606);
+  width: 70px;
+  font-size: 15px;
+}
+.task-title {
+  margin-top: 10px;
+  color: rgb(90, 62, 71);
+  /* max-width: 50px; */
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 0, 0.437);
+  /* background-color: rgba(96, 255, 17, 0.437); */
+  /* border-radius: 215px; */
+  /* height: 50px; */
+  margin-block: 10px;
+  padding: 20px 50px;
+  height: 75px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.edit-field {
+  padding: 0px 7px;
+  border-style: none;
+  border-radius: 20px;
+  font-size: 15px;
+  max-width: 150px;
+  height: 25px;
+  margin-top: 10px;
+}
+.edit-button {
+  padding: 9px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgba(225, 87, 7, 0.606);
+  width: 70px;
+  font-size: 15px;
+  /* margin-right: 50px; */
+}
+.delete-button {
+  height: 35px;
+  width: 20px;
+  margin: 0 20px;
+  cursor: pointer;
+  color: rgba(197, 56, 56, 0.835);
+}
+.save-button:active,
+.edit-button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.check-button {
+  height: 35px;
+  width: 20px;
+  cursor: pointer;
+  color: rgba(47, 122, 9, 0.835);
+}
+/* main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  background-color: #fce9db;
+  width: 50%;
+  border-radius: 15px;
+  padding: 20px;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 0, 0.437);
+  padding-block: 15px;
+  margin-block: 10px;
+  border-radius: 215px;
+}
+.input-field {
+  width: 30%;
+  margin: auto;
+  margin-block: 10px;
+  height: 30px;
+  border-style: none;
+  padding: 2px;
+}
+.new-task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.save-button {
+  width: 15%;
+  border-style: none;
+  padding: 5px;
+  background-color: rgba(132, 247, 255, 0.606);
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.edit-button {
+  width: 15%;
+  border-style: none;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.save-button:active,
+.edit-button:active {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+} */
