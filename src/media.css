@@ -1,0 +1,86 @@
+@media screen and (max-width: 425px) {
+  main {
+    min-height: 200px;
+    margin-top: 50px;
+  }
+  .new-task {
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .input-field {
+    min-height: 30px;
+  }
+  .title {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .task {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 110px;
+    width: 150px;
+    margin-block: 5px;
+    padding: 10px;
+    /* remove below later */
+  }
+  .edit-button {
+    max-height: 50px;
+    max-width: 50px;
+    font-size: 10px;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .buttons {
+    margin-top: 4px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .delete-button {
+    height: 15px;
+    margin: 5px 0 0 5px;
+  }
+  .check-button {
+    height: 15px;
+  }
+  .edit-field {
+    width: 110px;
+    font-size: 11px;
+  }
+  .task-title {
+    max-width: 120px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  main {
+    padding: 40px;
+    min-height: 200px;
+  }
+  .input-field {
+    min-height: 30px;
+  }
+  .task-title {
+    max-width: 120px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  main {
+    padding: 20px;
+    min-height: 200px;
+  }
+  .input-field {
+    min-height: 30px;
+    width: 150px;
+  }
+  .task {
+    min-height: 100px;
+  }
+  .task-title {
+    max-width: 120px;
+    font-size: 15px;
+  }
+}
